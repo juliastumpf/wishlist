@@ -66,6 +66,9 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f8dfdf', GradientType=1 );
 
 	color: #101010;
+
+	width: 100%
+	height 100%
 }
 
 h1 {

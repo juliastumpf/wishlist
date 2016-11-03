@@ -56,26 +56,14 @@ a {
 /* end of css reset */
 
 body {
-	background: #f8f8f8;
+	background: #eeeeee;
 	color: #101010;
 }
 
-#bg {
-	background: #f8f8f8;
-	background: -moz-linear-gradient(-45deg, #f8f8f8 0%, #f8dfdf 100%);
-	background: -webkit-gradient(left top, right bottom, color-stop(0%, #f8f8f8), color-stop(100%, #f8dfdf));
-	background: -webkit-linear-gradient(-45deg, #f8f8f8 0%, #f8dfdf 100%);
-	background: -o-linear-gradient(-45deg, #f8f8f8 0%, #f8dfdf 100%);
-	background: -ms-linear-gradient(-45deg, #f8f8f8 0%, #f8dfdf 100%);
-	background: linear-gradient	(135deg, #f8f8f8 0%, #f8dfdf 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f8dfdf', GradientType=1 );
+h2 {
+	padding: .25em;
 
-	position: fixed;
-
-	min-height: 100vh;
-	min-width: 100vw;
-
-	z-index: -1000;
+	font-size: 4em;
 }
 
 h1 {
@@ -103,7 +91,7 @@ h1 {
 }
 
 .item:hover {
-	background-color: rgba( 0, 0, 0, 0.10 );
+	opacity: 0.75;
 }
 
 .item img {
@@ -122,4 +110,5 @@ h1 {
 .item p {
 	position: absolute;
 	bottom: 0;
+	background-color: rgba( 238, 238, 238, 0.75 );
 }

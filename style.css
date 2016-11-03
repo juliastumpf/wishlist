@@ -112,3 +112,7 @@ h1 {
 	bottom: 0;
 	background-color: rgba( 238, 238, 238, 0.75 );
 }
+
+p {
+	padding: .25em;
+}

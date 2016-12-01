@@ -80,6 +80,15 @@ h1 {
 	color: #ff0000;
 }
 
+.itemNoImage {
+	padding: .25em;
+
+	width:  10em;
+
+	display:  inline-block;
+	position: relative;
+}
+
 .item {
 	padding: .25em;
 
